@@ -16,6 +16,6 @@ Cada pasta neste repositório representa um conjunto de exercícios ou um projet
 
 ## Estrutura do Repositório
 
-* `/[nome-da-atividade]`: Contém os arquivos de código-fonte e, se necessário, documentação adicional para uma atividade específica.
+* Contém os arquivos de código-fonte e, se necessário, documentação adicional para uma atividade específica.
 
 Sinta-se à vontade para explorar e analisar as soluções.
