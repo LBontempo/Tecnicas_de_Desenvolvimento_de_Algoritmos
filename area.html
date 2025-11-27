@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Área do Cliente - Bontempo Contabilidade</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/calculadora.svg" type="image/png">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row my-3">
+      <div class="col-lg-8">
+        <h1 class="logo">
+          <i class="fa-solid fa-calculator"></i>
+          <span style="font-family: 'Cinzel', serif;">Bontempo</span>
+          <span style="font-family: 'Poppins', sans-serif;">Contabilidade</span>
+        </h1>
+      </div>
+
+      <div class="col-lg-4">
+        <form>
+          <div class="input-group mt-3">
+            <input type="text" class="form-control" placeholder="Pesquisar...">
+            <button class="btn btn-danger"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #000;" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nós</a></li>
+            <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+            <li class="nav-item"><a class="nav-link" href="noticias.html">Notícias</a></li>
+            <li class="nav-item"><a class="nav-link" href="link.html">Links Úteis</a></li>
+            <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+            <li class="nav-item"><a class="nav-link active" style="color:#C8102E;" href="area.html">Área do Cliente</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row my-5">
+      <div class="col-lg-8">
+        <h2>Área do Cliente</h2>
+        <br><br>
+
+        <!-- FORMULÁRIO DE LOGIN CORRIGIDO -->
+        <form action="login.php" method="POST">
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu e-mail" required>
+            <br>
+          </div>
+
+          <div class="mb-3">
+            <label for="senha" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="senha" name="senha" placeholder="Digite sua senha" required>
+            <br>
+          </div>
+
+          <button type="submit" class="btn btn-danger w-100">Entrar</button>
+
+          <small class="d-block mt-3 text-center"><br>
+            <a href="#">Esqueceu sua senha?</a>
+          </small>
+        </form>
+        <!-- FIM DO FORMULÁRIO -->
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card text-center p-3 mb-3">
+          <i class="fa-solid fa-shield-halved fa-2x text-danger"></i>
+          <h5 class="mt-3">Segurança</h5>
+          <p>Garantimos proteção total dos seus dados.</p>
+        </div>
+
+        <div class="card text-center p-3 mb-3">
+          <i class="fa-solid fa-handshake fa-2x text-primary"></i>
+          <h5 class="mt-3">Praticidade</h5>
+          <p>Facilidade no acesso e gestão online.</p>
+        </div>
+
+        <div class="card text-center p-3">
+          <i class="fa-solid fa-headset fa-2x text-success"></i>
+          <h5 class="mt-3">Suporte ao Cliente</h5>
+          <p>Equipe disponível para dúvidas e suporte.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+<footer class="bg-dark text-white text-center p-3">
+  <div class="fs-2">
+    <a href="https://instagram.com/lucas.bontempo/#" target="_blank" class="text-white me-3">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="https://facebook.com/usuario" target="_blank" class="text-white me-3">
+      <i class="fa-brands fa-facebook"></i>
+    </a>
+    <a href="https://wa.me/61985521171" target="_blank" class="text-white">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <p class="mb-2 small">&copy; 2025 Todos os Direitos Reservados :: Design by: Lucas Bontempo</p>
+</footer>
+
+</html>

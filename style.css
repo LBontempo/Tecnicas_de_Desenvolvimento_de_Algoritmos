@@ -1,0 +1,81 @@
+/* 1. ESTILO DA BARRA DE NAVEGAÇÃO (NAVBAR) */
+
+.navbar {
+    background-color: #000000 !important;
+    padding: 0;
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 400;
+    padding-top: 10px;    
+    padding-bottom: 10px; 
+    padding-left: 15px;   
+    padding-right: 15px;  
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link.active-link,
+.navbar-nav .nav-link:hover {
+    color: #C8102E !important;
+}
+
+.navbar-brand {
+    color: #C8102E !important;
+}
+
+.dropdown-menu {
+    background-color: #111111; 
+    border: none;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #FFFFFF;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #C8102E;
+    color: #FFFFFF;
+}
+
+/* 2. ESTILO DO TÍTULO DA PÁGINA DE CRUD (H1) */
+
+.titulo-crud {
+    color: #800020;
+    font-family: 'Cinzel', serif; 
+    font-size: 2.5rem; 
+    font-weight: 700; 
+    margin-top: 25px; 
+    margin-bottom: 25px;
+}
+
+/* 3. ESTILO DO BOTÃO ENVIAR/PRIMÁRIO (BTN-PRIMARY) */
+
+.btn-primary {
+    background-color: #800020;
+    border-color: #800020;    
+    color: #FFFFFF;            
+    font-weight: 600;         
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #5C0015;
+    border-color: #5C0015;
+}
+
+/* 4. ESTILO DO BOTÃO DE PESQUISA (BTN-DANGER) */
+
+.btn-danger {
+    background-color: #C8102E !important;
+    border-color: #C8102E !important;
+    color: #FFFFFF !important;
+}
+
+.btn-danger:hover {
+    background-color: #A00C24 !important;
+    border-color: #A00C24 !important;
+}
